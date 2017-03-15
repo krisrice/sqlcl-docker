@@ -14,6 +14,7 @@ This is a simple Dockerfile to build an image with SQLcl installed
       http://www.oracle.com/technetwork/developer-tools/sqlcl/downloads/index.html
       
    Place in this directory
+   
 4. Run :  docker build -t sqlcl .
 
 
