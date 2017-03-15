@@ -8,7 +8,7 @@ This is a simple Dockerfile to build an image with SQLcl installed
 ## Installation
 
 Download the latest SQLcl from OTN
-    http://www.oracle.com/technetwork/developer-tools/sqlcl/index.html
+   http://www.oracle.com/technetwork/developer-tools/sqlcl/downloads/index.html
 
 ###Build
 
