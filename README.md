@@ -23,3 +23,13 @@ This is a simple Dockerfile to build an image with SQLcl installed
 ``` 
 docker run -it sqlcl sql
 ``` 
+
+
+
+### Run and add a hostname for the host machine
+
+``` 
+docker run --add-host localhost:192.168.3.2 -it sqlcl sql klrice/klrice@//localhost:1521/orcl
+``` 
+
+
