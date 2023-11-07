@@ -5,6 +5,5 @@ RUN gu install js
 RUN curl -s https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-latest.zip > sqlcl-latest.zip
 RUN unzip sqlcl-latest.zip
 RUN chmod 755 sqlcl/bin/sql
-ENV PATH=sqlcl/bin:$PATH
-CMD sql
-
+ENV PATH /app/sqlcl/bin:$PATH
+CMD sql 
