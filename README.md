@@ -2,7 +2,7 @@
 
 [![N|Solid](http://www.oracle.com/technetwork/developer-tools/sqlcl/sqlcl-32-2994764.png)](http://www.oracle.com/technetwork/developer-tools/sqlcl/index.html)
 
-This is a simple Dockerfile to build an image with SQLcl installed updated with the change in licensing to the Oracle Free Use Terms and Conditions.
+This is a simple Dockerfile to build an image with SQLcl installed updated with the change in licensing to the Oracle Free Use Terms and Conditions. This now leverages GraalVM and installs the Javascript support for the sqlcl `script` command
 
 
 ## Installation Steps
